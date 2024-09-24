@@ -2,6 +2,8 @@ module LAAnalytics {
 	requires javafx.controls;
 	requires javafx.fxml;
 	requires javafx.graphics;
+	requires java.sql;
+	requires java.desktop;
 	
 	opens usa.com.nba.atletas to javafx.graphics, javafx.fxml;
 }
